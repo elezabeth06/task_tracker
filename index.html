@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task Tracer - Jan 2026</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h2>📅 Task Tracer – January 2026</h2>
+
+<div class="meta">
+  <div><b>Year:</b> 2026</div>
+  <div><b>Month:</b> January</div>
+</div>
+
+<table id="tracker">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Daily Habits</th>
+      <!-- Days -->
+      <script>
+        for (let i = 1; i <= 31; i++) {
+          document.write(`<th>${i}</th>`);
+        }
+      </script>
+    </tr>
+  </thead>
+
+  <tbody id="habitRows"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

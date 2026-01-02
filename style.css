@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f7f7f7;
+}
+
+h2 {
+  text-align: center;
+}
+
+.meta {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  text-align: center;
+  font-size: 13px;
+}
+
+th {
+  background: #e0e0e0;
+}
+
+td:first-child,
+td:nth-child(2) {
+  background: #f4efe9;
+  font-weight: bold;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
